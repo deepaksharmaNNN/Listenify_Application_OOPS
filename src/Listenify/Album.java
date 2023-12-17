@@ -21,7 +21,7 @@ public class Album {
     }
     public Boolean findSong(String title){
         for(Song song : songList){
-            if(song.getSongTitle().equals()){
+            if(song.getSongTitle().equals(title)){
                 return Boolean.TRUE;
             }
         }
